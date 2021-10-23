@@ -1,0 +1,12 @@
+[package]
+name = "moonmonet-rs"
+version = "0.1.0"
+authors = ["Northn <erolerol3760@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.104"
+monet-rs = { path = "../monetwannabe-rs-new" }
